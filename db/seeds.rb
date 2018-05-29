@@ -602,36 +602,182 @@ Part.create([
                 description: 'Size Dimensions: 9" X 33" ',
                 sku: 'PT910000',
                 quantity: 4300,
-                collection_id: '3'
+                collection_id: '4'
               },
               {
                 name: 'Mob X Jess Mudgett Barren Grip Tape',
                 description: 'Size Dimensions: 9" X 33" ',
-                sku: 'PT910000',
+                sku: 'PT910001',
                 quantity: 4300,
-                collection_id: '3'
+                collection_id: '4'
               },
               {
-                name: 'Mob X Jess Mudgett Carnivorous Nights Grip Tape',
+                name: 'Mob X GnarHunters Big Logo Grip Tape',
                 description: 'Size Dimensions: 9" X 33" ',
-                sku: 'PT910000',
+                sku: 'PT910002',
                 quantity: 4300,
-                collection_id: '3'
+                collection_id: '4'
               },
               {
-                name: 'Mob X Jess Mudgett Carnivorous Nights Grip Tape',
+                name: 'Mob X Garbage Pail Kids Boozin Bruce Grip Tape',
                 description: 'Size Dimensions: 9" X 33" ',
-                sku: 'PT910000',
+                sku: 'PT910003',
                 quantity: 4300,
-                collection_id: '3'
+                collection_id: '4'
               },
               {
-                name: 'Mob X Jess Mudgett Carnivorous Nights Grip Tape',
+                name: 'Mob X Garbage Pail Kids Dead Ted Grip Tape',
                 description: 'Size Dimensions: 9" X 33" ',
-                sku: 'PT910000',
+                sku: 'PT910004',
                 quantity: 4300,
-                collection_id: '3'
+                collection_id: '4'
               },
-
+              {
+                name: 'Mob X Garbage Pail Kids Electric Bill Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910005',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Thrasher Retro Graphic Strips Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910006',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Creature Logo Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910007',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X  Santa Cruz Acid Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910008',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X GnarHunters Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910009',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Creature Fiend Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910010',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Creature Serpents Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910011',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Independent Suspenson Cross Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910012',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Krux Polka Dots Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910013',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Rainbow Litter Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910014',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Pajaros Falmingo Fish Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910015',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Pajaros Parrot Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910016',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Ben Horton Apes of Wisdom Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910017',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Ben Horton Dogs of War Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910018',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Ben Horton Birds of a Feather Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910019',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Misfits Crossed Hands Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910020',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob X Misfits Skull Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910021',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob White Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910022',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob Clear Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910023',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob M-80 Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910024',
+                quantity: 4300,
+                collection_id: '4'
+              },
+              {
+                name: 'Mob Black Grip Tape',
+                description: 'Size Dimensions: 9" X 33" ',
+                sku: 'PT910025',
+                quantity: 4300,
+                collection_id: '4'
+              }
               # Collection 4 Mob End
             ])
