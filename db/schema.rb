@@ -32,8 +32,8 @@ ActiveRecord::Schema.define(version: 20180527020909) do
   create_table "parts", force: :cascade do |t|
     t.string "name"
     t.string "description"
-    t.integer "sku"
-    t.string "quantity"
+    t.string "sku"
+    t.integer "quantity"
     t.bigint "collection_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

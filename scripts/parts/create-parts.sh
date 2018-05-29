@@ -7,7 +7,11 @@ curl "http://localhost:4741/parts" \
   --header "Content-Type: application/json" \
   --data '{
     "part": {
-      "name": "'"${NAME}"'"
+      "name": "'"${NAME}"'",
+      "description": "'"${DESC}"'",
+      "sku": "'"${SKU}"'",
+      "quantity": "'"${QTY}"'",
+      "collection_id": "'"${CID}"'"
     }
   }'
 
