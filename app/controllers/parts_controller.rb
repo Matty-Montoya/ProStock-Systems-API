@@ -1,21 +1,28 @@
-class PartsController < ApplicationController
-  before_action :set_part, only: [:show, :update, :destroy]
+# frozen_string_literal: true
+
+class PartsController < OpenReadController
+  before_action :set_part, only: %i[show update destroy]
 
   # GET /parts
   def index
     @parts = Part.all
+    render json: @parts
+  end
+
+  def my_index
+    @parts = current_user.parts.all
 
     render json: @parts
   end
 
-  # GET /parts/1
+  # GET /parts/
   def show
     render json: @part
   end
 
   # POST /parts
   def create
-    @part = Part.new(part_params)
+    @part = current_user.parts.build(part_params)
 
     if @part.save
       render json: @part, status: :created, location: @part
@@ -39,13 +46,14 @@ class PartsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_part
-      @part = Part.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def part_params
-      params.require(:part).permit(:name, :description, :sku, :quantity, :collection_id)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_part
+    @part = current_user.part.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def part_params
+    params.require(:part).permit(:name, :description, :sku, :quantity)
+  end
 end
