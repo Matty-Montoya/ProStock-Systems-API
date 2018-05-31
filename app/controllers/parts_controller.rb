@@ -1,17 +1,11 @@
 # frozen_string_literal: true
 
-class PartsController < OpenReadController
+class PartsController < ProtectedController
   before_action :set_part, only: %i[show update destroy]
 
   # GET /parts
   def index
-    @parts = Part.all
-    render json: @parts
-  end
-
-  def my_index
     @parts = current_user.parts.all
-
     render json: @parts
   end
 
@@ -49,7 +43,7 @@ class PartsController < OpenReadController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_part
-    @part = current_user.part.find(params[:id])
+    @part = current_user.parts.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.

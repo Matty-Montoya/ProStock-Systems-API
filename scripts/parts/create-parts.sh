@@ -11,8 +11,7 @@ curl "http://localhost:4741/parts" \
       "name": "'"${NAME}"'",
       "description": "'"${DESC}"'",
       "sku": "'"${SKU}"'",
-      "quantity": "'"${QTY}"'",
-      "collection_id": "'"${CID}"'"
+      "quantity": "'"${QTY}"'"
     }
   }'
 
