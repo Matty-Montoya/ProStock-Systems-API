@@ -50,6 +50,25 @@ ___
 
 ---
 
+## Planning and Development Process
+
+
+As I mentioned before, I knew that this was a project that I wanted to create for quite some time. Going into the project, we had the option to interact with a new framework, Ember, or continuing using a browser template to create the front end client. Since I ran across technical issue with Ember on my laptop, I decided to work with the browser template for the front end.
+
+In regards to the backend API, I knew that the types of relations that I would be creating would work best with Ruby on Rails and as such I decided to use it. Rails would allow me to have `has_many` and `belongs_to` relations betweens the user and the other tables.
+
+Going into the project, I knew that I wanted the Collection and Part tables to be ProtectedController as they would require authorization to index and show specific collections and parts. I originally wanted the tables to only allow routes for index and show; however, as I began developing I came across a rabbit hole that forced me to reconsider the path of the project. I came to the realization that if I seeded the information into the database, it would take a tremendous amount of time and would limit what I wanted the user to do.
+
+As such, I decided to set this task aside as a later rendition of what this project would be and focus on creating `CRUD` actions on one resource `Parts` that the user would be able to create, read, update, and destroy an inventory of parts. This would in turn allow the user to have better control over their specific inventory.
+
+This project was failry similar in design to [Jammate](https://github.com/Matty-Montoya/JamMate) and as such I took inspiration in regards to setting up the layout and desgin of the site with the assistance of handlebars. A user would be able to create a part and handlebars would load that information after making a successful AJAX request from the API.
+
+Some issues that I ran across while working with this project were having the user only be able to speficially see only their posts. I felt as though creating this project was a great refresher working with Ruby on Rails, JavaScript, and jQuery.
+
+
+
+---
+
 ## Entity Relationship Diagram
 
   Here you'll notice the entity relational diagram that showcases what I relationships between tables that I wanted to create. A user would have many collections of which would in turn have many parts. This would allow the user to keep track of parts based on their collections.
