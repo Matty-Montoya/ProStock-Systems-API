@@ -32,7 +32,7 @@ I made this application with the intent of helping my previous employer with the
 ## Installation
   1. Fork and clone this repository.
   2. Change into a new directory.
-  3. `bunlde install` dependencies.
+  3. `bundle install` dependencies.
   4.  Go to [`README.md`](README.md) and review information.
 
 ---
